@@ -1,0 +1,34 @@
+# Ignore arquivos e diretórios comuns
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+tmp/
+temp/
+
+# Diretórios e arquivos de build locais
+target/
+build/
+dist/
+out/
+node_modules/
+
+# Arquivos de configuração locais
+.env
+*.env
+
+# Ignore IDE e editor de configuração
+.vscode/
+.idea/
+
+# Outros arquivos e diretórios não necessários
+tests/
+docs/
+examples/
+*.md
+*.yml
+*.yaml
